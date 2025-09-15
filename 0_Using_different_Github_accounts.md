@@ -70,7 +70,7 @@ Save this and close the file.
 
 ## Test that both directories commit as the right alias
 
-blabla
+Testtest
 
 ## Test the manual switching
 
