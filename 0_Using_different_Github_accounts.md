@@ -20,8 +20,8 @@ Start you terminal. Open your .gitconfig by typing `nano ~/.gitconfig`. Inside o
 
 ```zsh
 [user]
-    name = leape
-    email = leape@itu.dk
+    name = ituid
+    email = ituid@itu.dk
 ```
 
 These are the current global user credentials that are used for every git action at this point. Delete these lines and add the following:
@@ -36,6 +36,26 @@ These are the current global user credentials that are used for every git action
 ```
 
 Because you can customize the directory paths, your ITU and personal directories can be located in different places and not in the same folder. But I like this simple setup. You save and close a file in the terminal by clicking `^X` and then `Y`.
+
+Now we need to create the `.gitconfig-itu` and `.gitconfig-personal`. For simplicity keep these in the same place as the .gitconfig source file. When you open it, the terminal will show you the path at the top. It will typically be your home directory, which you can access with the command `cd ~`.
+
+Go to the directory and create the files by typing first `touch .gitconfig-itu` and then `touch .gitconfig-personal`. Then open first the ITU file and add the lines
+
+```zsh
+[user]
+    name = ituid
+    email = ituid@itu.dk
+```
+
+And now you will do the same for the personal config file:
+
+```zsh
+[user]
+    name = username
+    email = address@gmail.com
+```
+
+Make sure this is the actual usernames of the accounts. Save this and close the file.
 
 ## Authenticate both GitHub accounts
 
