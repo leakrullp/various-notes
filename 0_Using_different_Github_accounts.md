@@ -1,9 +1,10 @@
 # Set up your Mac to both handle ITU enterprise and personal GitHub accounts
 
+Some classes at ITU require you to use your university enterprise account or your own personal account. I have made this guide to make that workflow as smooth as possible during a busy student life.
 This guide will work wether you are already logged into your enterprise account on `github.itu.dk` or whether you have just installed git. If you don't have git installed, go ahead and do that first.\
 The outcome will be, that you have set up two directories on your computer, where we hardcode which credentials you will be using. This way you will always use the right account. There will be a lot of terminal interaction during this setup, but once it is done, it will all work automatically when you're working inside the correct directories.
 
-## 1) Moderate your `.gitconfig`
+## Moderate your `.gitconfig`
 
 From here on out, we will be working with this folder setup:
 
@@ -13,12 +14,9 @@ Users/your-username/Documents/GitHub/
     └── personal/
 ```
 
-Your directory path might look different from mine, but the main requirement is, that the paths of these two directories, `ITU` and `personal`, both have a path that starts from the root directory of the machine(the full path name).\
-You will be able to manually switch between the aliases when you are outside the scope of these folders, but these will be hardcoded to make sure that you are always commiting as the correct alias depending on which directory you are in.
+Your desired directory path might look different from mine, but the main requirement is, that the paths of these two directories, `ITU` and `personal`, both have a path that starts from the root directory (the full path name).
 
-If you want a different setup or logic in your `.gitconfig`, ChatGPT is your friend.
-
-Open your .gitconfig from any directory by typing `nano ~/.gitconfig`. Inside of this file you should see something like this:
+Start you terminal. Open your .gitconfig by typing `nano ~/.gitconfig`. Inside of this file you should see something like this:
 
 ```zsh
 [user]
@@ -26,7 +24,7 @@ Open your .gitconfig from any directory by typing `nano ~/.gitconfig`. Inside of
     email = leape@itu.dk
 ```
 
-These are the current global user credentials that are used for every git action at this point. Delete these lines, add the following:
+These are the current global user credentials that are used for every git action at this point. Delete these lines and add the following:
 
 ```zsh
 [includeIf "gitdir:/Users/your-username/Documents/GitHub/ITU/**"]
@@ -37,9 +35,9 @@ These are the current global user credentials that are used for every git action
 
 ```
 
-Because you can customize the directory paths, your ITU and personal directories can be located in different places and not in the same folder. But I like this simple setup.
+Because you can customize the directory paths, your ITU and personal directories can be located in different places and not in the same folder. But I like this simple setup. You save and close a file in the terminal by clicking `^X` and then `Y`.
 
-## 3) Authenticate both GitHub accounts
+## Authenticate both GitHub accounts
 
 Start by erasing current authentifications related to both domains.
 
@@ -58,7 +56,7 @@ When it asks you `Where do you use GitHub?`, select `Other`. Enter `github.itu.d
 
 Enter `gh auth login` again in the terminal and choose `GitHub.com` and follow the same steps.
 
-You can test that both accounts receive commits from the correct account, by created a test repo on each account and cloning it into `Users/your-username/Documents/GitHub/ITU` and `Users/your-username/Documents/GitHub/personal` respectively. You should then be able to stage a commit and push it to the repo
+You can test that both accounts receive commits from the correct account, by created a test repo on each account and cloning it into `Users/your-username/Documents/GitHub/ITU` and `Users/your-username/Documents/GitHub/personal` respectively. You should then be able to stage a commit and push it to the repo.
 
 ## Shortfalls
 
