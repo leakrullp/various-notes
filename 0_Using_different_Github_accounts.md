@@ -16,13 +16,16 @@ Users/your-username/Documents/GitHub/
 
 Your desired directory path might look different from mine, but the main requirement is, that the paths of these two directories, `ITU` and `personal`, both have a path that starts from the root directory (the full path name).
 
-Start you terminal. Open your .gitconfig by typing `nano ~/.gitconfig`. Inside of this file you should see something like this:
+Start you terminal. If you already there, navigate to your home directory (`Users/your-username`) by typing `cd ~`. Open your .gitconfig by typing `nano .gitconfig`. Inside of this file you should see something like this:
 
 ```zsh
 [user]
     name = ituid
     email = ituid@itu.dk
 ```
+>[!TIP]
+>
+>If the .gitconfig file appears to not be in the expected directory, you can open it from anywhere with `nano ~/.gitconfig`
 
 These are the current global user credentials that are used for every git action at this point. Delete these lines and add the following:
 
@@ -32,14 +35,13 @@ These are the current global user credentials that are used for every git action
 
 [includeIf "gitdir:/Users/your-username/Documents/GitHub/personal/**"]
     path = ~/.gitconfig-personal
-
 ```
 
 Because you can customize the directory paths, your ITU and personal directories can be located in different places and not in the same folder. But I like this simple setup. You save and close a file in the terminal by clicking `^X` and then `Y`.
 
-Now we need to create the `.gitconfig-itu` and `.gitconfig-personal`. For simplicity keep these in the same place as the .gitconfig source file. When you open it, the terminal will show you the path at the top. It will typically be your home directory, which you can access with the command `cd ~`.
+Now we need to create the `.gitconfig-itu` and `.gitconfig-personal`. For simplicity, keep these in the same place as the main .gitconfig file. When you open it, the terminal will show you the path at the top. It will typically be your home directory.
 
-Go to the directory and create the files by typing first `touch .gitconfig-itu` and then `touch .gitconfig-personal`. Then open first the ITU file and add the lines
+Go to the directory and create the files by typing first `touch .gitconfig-itu` and then `touch .gitconfig-personal`. You open a file by typing `nano <filename>`. Then open first the ITU file and add the lines:
 
 ```zsh
 [user]
@@ -76,8 +78,8 @@ When it asks you `Where do you use GitHub?`, select `Other`. Enter `github.itu.d
 
 Enter `gh auth login` again in the terminal and choose `GitHub.com` and follow the same steps.
 
-You can test that both accounts receive commits from the correct account, by created a test repo on each account and cloning it into `Users/your-username/Documents/GitHub/ITU` and `Users/your-username/Documents/GitHub/personal` respectively. You should then be able to stage a commit and push it to the repo.
+You can test that both accounts receive commits from the correct account, by creating a test repo on each account and cloning it into `Users/your-username/Documents/GitHub/ITU` and `Users/your-username/Documents/GitHub/personal` respectively. You should then be able to stage a commit,push it to the repo and see the correct username as the author.
 
 ## Shortfalls
 
-This guide assumes that you will only be creating git repos inside the two directories we just set up. This is fine for most ITU students. Creating repos outside of these folders might be a bit difficult now, and there are methods to alter manually between credentials by making your own custom terminal prompts, but that is outside the scope of this guide.
+This guide assumes that you will only be storing git repos inside the two directories we just set up. This is fine for most ITU students. Creating repos outside of these folders might be a bit difficult now, and there are methods to alter manually between credentials anywhere on your machine by making your own custom terminal prompts, but that is outside the scope of this guide.
