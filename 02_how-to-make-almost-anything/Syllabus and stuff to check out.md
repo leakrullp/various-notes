@@ -1,0 +1,117 @@
+---
+tags:
+  - 3d-modelling
+---
+
+## 3D modelling
+- [x] **Install before the lecture**: Fusion 360 or other 3D modeling software. Check details in [Programs to install](https://learnit.itu.dk/mod/page/view.php?id=227185)
+- [ ] **Read before the lecture:** [_The Digital Fabrication Revolution_, Neil Gershenfeld](https://learnit.itu.dk/pluginfile.php/421470/mod_resource/content/0/gershenfeld2012the_digital_fabrication_revolution.pdf)
+- [x] **Watch before the lecture:** the first 5 videos of [Introduction to 3D modeling in Fusion360](https://help.autodesk.com/view/fusion360/ENU/courses/AP-C-INTRO-3D-MODELING):
+    - [Introducing 3D modeling in Fusion](https://www.autodesk.com/learn/ondemand/curated/introduction-to-3d-modeling/1hbU42kGRsaybfeB8254pa)
+    - [Create a new cloud project, upload, and save a 3D model](https://www.autodesk.com/learn/ondemand/curated/introduction-to-3d-modeling/7kbL0TSFzx5Xaj8zKwVV42)
+    - [Survey and edit a 3D model](https://www.autodesk.com/learn/ondemand/curated/introduction-to-3d-modeling/1ZlJcUf6WttuI3yBoeLhkb)
+    - [Sketch 2D rectangles using lines, constraints, and center](https://www.autodesk.com/learn/ondemand/curated/introduction-to-3d-modeling/7mScRekNoA8Lsoh3hnRIUT)
+    - [Create a 3D model using Extrude, Fillet, and the Timeline](https://www.autodesk.com/learn/ondemand/curated/introduction-to-3d-modeling/5UMTU7nPv3sXb04seUegO6)
+- [x] **Lecture**: Introduction and 3D modelling (slides below).
+- [x] **Watch before the exercises**:
+    - [How to use a caliper](https://media.itu.dk/media/Lecture%201%3A%20How%20to%20use%20a%20caliper/0_stk0k6mz)
+    - [MA1 explanation](https://media.itu.dk/media/Lecture%201%3A%20MA1/0_g131u6q5)
+- [x] **Exercises**: Model a simple part and model a 3D object
+- [x] **Mandatory assignment**: MA 1, 3D model at least one of the off-the-shelf parts (DC motor, Arduino, breadboard, battery holder)
+## 3D printing
+ - [x] **Install before the lecture:** Install a Slicer (Recommended: Prusa Slicer). Check details in [Programs to install](https://learnit.itu.dk/mod/page/view.php?id=227185)
+- [ ] **Read before the lecture:** Read the article and look at the Wikipedia pages for these 3D printing techniques.
+    - [_RepRap - The Replicating Rapid Prototyper_ by Rhys Jones](https://learnit.itu.dk/pluginfile.php/421481/mod_resource/content/0/jones2011reprap.pdf)
+    - [SLS - Selective Laser Sintering](https://en.wikipedia.org/wiki/Selective_laser_sintering)
+    - [LOM - Laminated Object Manufacturing](https://en.wikipedia.org/wiki/Laminated_object_manufacturing)
+    - [FDM - Fused Filament Fabrication](https://en.wikipedia.org/wiki/Fused_filament_fabrication)
+    - [SLA - Stereolithography](https://en.wikipedia.org/wiki/Stereolithography)
+- [ ] **Lecture:** 3D printing and assemblies (find slides below). Videos of the lecture:
+    - [FDM printer in action](https://www.youtube.com/watch?v=BguwZ5DvNmo)
+    - [SLA printer in action](https://www.youtube.com/watch?v=8tn5zA5bNSE)
+    - [LOM printer in action](https://www.youtube.com/watch?v=-u_dyNfh1iA&list=PLe-4ETa97OcgplLd7XelyWAgPYsqd87_G)
+ - [ ] **Watch before the exercises:** [MA2 description](https://media.itu.dk/media/t/0_9gr4evym)
+ - [x] **Exercises:** Design and 3D print a motor holder.
+ - [x] **Mandatory activity:** MA 2, Design a motor holder, make an assembly (DC motor + motor holder) and 3D print the motor holder. Find details below.
+## Laser cutting
+ - [ ] **Watch before the lecture:**
+    - [Fusion 360: Sketch Constraints](https://youtu.be/J_2If5zVp84)
+    - [Fusion 360 - Secrets of the line command](https://youtu.be/-rm_vtKcpnA)
+- [ ] **Lecture:** Laser cutting and drawings. (find slides below). Videos of the lecture:
+    - [Sheet Metal in Fusion 360](https://www.youtube.com/watch?v=nEjFMYNGY4g)
+    - [Laser Cut Slicer](https://www.youtube.com/watch?v=73GTmy5oBEQ)
+    - [Origami Zippered Tubes](https://www.youtube.com/watch?v=UA__bXPRdhw)
+- [ ] **Watch before exercises**: [Exercise and MA3 description](https://media.itu.dk/media/t/0_jimmlcph)
+- [ ] **Exercises:** Use the constraints to draw a key ring and laser cut it. Design a flat base for your robot. See video above.
+- [x] **Mandatory Assignment:** MA 3, Design a flat base for your robot and laser cut it. See details below.
+## Mechanisms
+- [ ] **Read before the lecture:**
+    - [Introduction to Forces](https://www.bbc.co.uk/bitesize/topics/z4brd2p/articles/zs3896f#zb92qfr)
+    - [Moments](https://www.bbc.co.uk/bitesize/articles/z96g3j6#zmbqwnb)
+    - [Mechanism (engineering)](https://en.wikipedia.org/wiki/Mechanism_\(engineering\))
+- [ ] **Watch before the lecture:**
+    - [What is a force?](https://www.youtube.com/watch?v=B6mi1-YoRT4&t)
+    - [Moments](https://www.youtube.com/watch?v=22VGQM1jCn8)
+    - [Degrees of Freedom](https://www.youtube.com/watch?v=lpb4G0aM8a4&t=239s)
+- [ ] **Lecture:** See slides below. Videos of the lecture:
+    - [Gears and Mechanisms in Lego](https://www.youtube.com/watch?v=1-gO6TOx6xQ)
+    - [Four-Bar Linkages](https://www.youtube.com/watch?v=AyII9xaAQ7M)
+    - [Rack and Pinion + 4 bar Linkage Steering Mechanism](https://www.youtube.com/watch?v=BZIkTLrnLKw)
+    - [Linear Guides with V-Slot](https://www.youtube.com/watch?v=584Z47gTBRY)
+    - [Gears and Mechanisms](https://www.youtube.com/watch?v=XIlm81gP3sM)
+- [ ] **Exercises:** Explain several mechanisms to other students and build some in LEGO.
+- [ ] **[Gears and simulation mechanisms in Fusion](https://media.itu.dk/media/t/0_forjqqtk)**
+- [x] **Mandatory Assignment:** MA 4, Describe a machine and 3D model a mechanism in Fusion 360 (gripper for the robot). See details below.
+- [ ] **Supplementary reads:**
+    - [Degree of freedom of an object](https://engineeringstatics.org/Chapter_05-degree-of-freedom.html)
+    - [Force diagrams and resultant forces](https://www.bbc.co.uk/bitesize/topics/z4brd2p/articles/zhnfp4j#zvnwwnb)
+    - [Basic Kinematics of Constrained Rigid Bodies 4.1 to 4.3](https://www.cs.cmu.edu/~rapidproto/mechanisms/chpt4.html)
+    - [Mechanisms and simple machines](https://www.cs.cmu.edu/~rapidproto/mechanisms/chpt2.html)
+- [ ] **Supplementary videos:**
+    - [Joints, Mates, and Moving Things Around in Autodesk Fusion](https://www.youtube.com/watch?v=_Njtx-y6s0I)
+    - [Visualize Assembly Movement with Contact Sets](https://www.youtube.com/watch?v=1VE64VQLAgQ)
+    - [Creating Contact Sets and Motion Links in Fusion 360](https://www.youtube.com/watch?v=1VE64VQLAgQ)
+    - [How to Apply as-built joints](https://www.youtube.com/watch?v=Qgdaw3XQyCw)
+## Basic Electronics
+- [ ] **Software to install before the lecture**: Install Fritzing from [here](https://learnit.itu.dk/mod/folder/view.php?id=227186).
+- [ ] **Read before the lecture**:
+    - [Voltage, Current, Resistance](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/electricity-basics)
+- [ ] **Watch before the lecture**:
+    - [An intuitive approach for understanding electricity](https://www.youtube.com/watch?v=X_crwFuPht4), watch the first 20 min, very long but intuitive.
+- [ ] **Lecture**: See slides below.
+- [ ] **Exercises**: Try basic circuits with resistors, power supplies, potentiometers, switches and LEDs.
+- [x] **Mandatory assignment**: MA5: Draw schematic circuits and their implementations in Fritzing and in a breadboard. See details of the assignment below.
+- [ ] **Supplementary reads**:
+    - [LEDs](https://learn.sparkfun.com/tutorials/light-emitting-diodes-leds)
+    - [Potentiometer](https://en.wikipedia.org/wiki/Potentiometer)
+    - [How to read an schematic](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic)
+    - [Button and switch basics](https://learn.sparkfun.com/tutorials/button-and-switch-basics)
+    - [How to use a multimeter](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter)
+    - [How to power a project](https://learn.sparkfun.com/tutorials/how-to-power-a-project)
+    - (Optional) Chapters 7 and 8 of [The robotics primer](https://pages.ucsd.edu/~ehutchins/cogs8/mataric-primer.pdf) by M. Mataric.
+- [ ] **Supplementary videos**:
+    - [How does a potentiometer work](https://www.youtube.com/watch?v=Xb-MZMoUtcQ)
+    - [How does an LED work](https://www.youtube.com/watch?v=O8M2z2hIbag)
+    - [What are the types of switches](https://www.youtube.com/watch?v=GlHMOK1AnsQ)
+    - [Electronic Basics #1: The Multimeter](https://www.youtube.com/watch?v=CBah3vz5b-U)
+    - [How to use a power supply](https://www.youtube.com/watch?v=uraPWaeAgYA)
+## Sensors, motors, and transistors
+- [ ] **Watch**: [The transistor](https://www.youtube.com/watch?v=jPFl_8_T8gk)
+- [ ] **Lecture**: See slides below.
+- [ ] **Exercises**: You should test the IR sensors, motors and transistors. Build a line-following robot without a microcontroller or computer.
+- [x] **Mandatory assignment**: MA6, Control a line-following robot without programming. See details below.
+## Microcontrollers (Arduino)
+- [ ] **Software**: Install the Arduino IDE and check that it works correctly. Check details in [Programs to install](https://learnit.itu.dk/mod/page/view.php?id=227185)
+- [ ] **Read**: [SparkFun Inventor’s Kit manual](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v40/introduction) (a very useful resource with lots of circuits that you can try). It is also [available as a pdf](https://learnit.itu.dk/pluginfile.php/421515/mod_resource/content/0/SparkFun_Inventors_Kit_Guide_V4.0a.pdf). (You do not read it before the lecture).
+- [ ] **Watch**:
+    - At least the first 10:40 minutes of [_You can learn Arduino in 15 minutes_](https://www.youtube.com/watch?v=nL34zDTPkcs)
+    - Or a few videos from [Arduino tutorial](https://www.linkedin.com/learning/learning-arduino-foundations-2) (you need to log in with your ITU account, not sure if you still have access to this).
+- [ ] **Lecture**: See slides below.
+- [ ] **Exercises**: Program an Arduino interacting with switches, LEDs, and potentiometers.
+- [ ] **Mandatory Assignment**: MA7, Program a microcontroller to build a line following robot. See details below.
+## Servo motors, stepper motors and adv. sensors
+- [ ] **Read**: Keep reading and testing new circuits of the [SparkFun Inventor’s Kit guide](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v40?_ga=2.170363808.1480214772.1551264724-1692269136.1539876161).
+- [ ] **Watch**: Take a look at the board with different sensors, which is located in the corridor next to the dirty lab (5A54).
+- [ ] **Lecture**: See slides below.
+- [ ] **Exercises**: Test a stepper motor and a servo motor.
+- [ ] **MA**: There is no MA, but stepper and servo motors are very common in student projects and typical questions in the exam. I strongly recommend that you test and understand both types of motors.

@@ -1,3 +1,15 @@
+---
+course:
+  - Applied Information Security
+---
+## Quick recap
+Sender computes a ciphertext $(c1,c2)$ for message $m$ with ephemeral random $r$:
+- $c_1 = g^r \bmod p$
+- $c_2 = m \cdot PK^r$ where $PK = g^x$ is the recipients public key.
+
+Decryption (by holder of private key $x$) does:
+- $s = c_1^x = g^{rx} = PK^r \bmod p$
+- $m = c_2 \cdot s^{-1} \bmod p$
 ### 🔑 Recall how ElGamal encryption works
 
 When the **sender** encrypts a message `m`:
@@ -6,8 +18,8 @@ When the **sender** encrypts a message `m`:
     - This is a one-time random number.
     - It changes every time a message is encrypted, even if the recipient and the plaintext are the same.
 2. They compute:
-    - `c1 = g^r mod p`
-    - `c2 = m * PK^r mod p`
+    - $c_1 = g^r \bmod p$
+    - $c_2 = m \cdot PK^r \bmod p$
 3. They send `(c1, c2)` as the ciphertext.
 
 ### 🧮 What happens in decryption?

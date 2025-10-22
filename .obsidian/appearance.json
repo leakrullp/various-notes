@@ -1,4 +1,8 @@
 {
   "theme": "obsidian",
-  "accentColor": "#5c6ef5"
+  "accentColor": "#2d6bfb",
+  "showRibbon": true,
+  "interfaceFontFamily": "",
+  "textFontFamily": "Funnel Sans",
+  "monospaceFontFamily": "Fira Code"
 }

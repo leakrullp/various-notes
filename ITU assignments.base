@@ -1,0 +1,18 @@
+properties:
+  file.name:
+    displayName: navn
+views:
+  - type: table
+    name: Tabel
+    order:
+      - file.name
+      - tags
+      - file.mtime
+      - type
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.tags: 496
+  - type: table
+    name: View
