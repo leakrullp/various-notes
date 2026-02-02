@@ -1,7 +1,9 @@
 # Set up your Mac to both handle ITU enterprise and personal GitHub accounts
 
+by [leakrullp](https://github.com/leakrullp), autumn 2025
+
 Some classes at ITU require you to use your university enterprise account or your own personal account. I have made this guide to make that workflow as smooth as possible during a busy student life.
-This guide will work wether you are already logged into your enterprise account on `github.itu.dk` or whether you have just installed git. If you don't have git installed, go ahead and do that first.\
+This guide will work wether you are already logged into your enterprise account on `github.itu.dk` or whether you have just installed git. If you don't have [git](https://git-scm.com/install/) installed, go ahead and do that first. I also recommend that you install [homebrew](https://brew.sh/).\
 The outcome will be, that you have set up two directories on your computer, where we hardcode which credentials you will be using. This way you will always use the right account. There will be a lot of terminal interaction during this setup, but once it is done, it will all work automatically when you're working inside the correct directories.
 
 ## Moderate your `.gitconfig`
@@ -16,7 +18,7 @@ Users/your-username/Documents/GitHub/
 
 Your desired directory path might look different from mine, but the main requirement is, that the paths of these two directories, `ITU` and `personal`, both have a path that starts from the root directory (the full path name).
 
-Start you terminal. If you already there, navigate to your home directory (`Users/your-username`) by typing `cd ~`. Open your .gitconfig by typing `nano .gitconfig`. Inside of this file you should see something like this:
+Start you terminal. If you aren't already there, navigate to your home directory (`Users/your-username`) by typing `cd ~`. Open your .gitconfig by typing `nano .gitconfig`. Inside of this file you should see something like this:
 
 ```zsh
 [user]
@@ -39,9 +41,8 @@ These are the current global user credentials that are used for every git action
 
 Because you can customize the directory paths, your ITU and personal directories can be located in different places and not in the same folder. But I like this simple setup. You save and close a file in the terminal by clicking `^X` and then `Y`.
 
-Now we need to create the `.gitconfig-itu` and `.gitconfig-personal`. For simplicity, keep these in the same place as the main .gitconfig file. When you open it, the terminal will show you the path at the top. It will typically be your home directory.
-
-Go to the directory and create the files by typing first `touch .gitconfig-itu` and then `touch .gitconfig-personal`. You open a file by typing `nano <filename>`. Then open first the ITU file and add the lines:
+Now we need to create the `.gitconfig-itu` and `.gitconfig-personal`. For simplicity, keep these in the same place as the main .gitconfig file.\
+In that directory, create the files by typing first `touch .gitconfig-itu` and then `touch .gitconfig-personal`. You open a file by typing `nano <filename>`. Then open first the ITU file and add these lines:
 
 ```zsh
 [user]
@@ -61,7 +62,7 @@ Make sure this is the actual usernames of the accounts. Save this and close the 
 
 ## Authenticate both GitHub accounts
 
-Start by erasing current authentifications related to both domains.
+Start by erasing current authentifications related to both domains. Write this in your terminal:
 
 ```zsh
 printf "protocol=https\nhost=github.com\n" | git credential-osxkeychain erase
@@ -78,7 +79,7 @@ When it asks you `Where do you use GitHub?`, select `Other`. Enter `github.itu.d
 
 Enter `gh auth login` again in the terminal and choose `GitHub.com` and follow the same steps.
 
-You can test that both accounts receive commits from the correct account, by creating a test repo on each account and cloning it into `Users/your-username/Documents/GitHub/ITU` and `Users/your-username/Documents/GitHub/personal` respectively. You should then be able to stage a commit,push it to the repo and see the correct username as the author.
+You can test that both accounts receive commits from the correct account, by creating a test repo on each account and cloning it into `Users/your-username/Documents/GitHub/ITU` and `Users/your-username/Documents/GitHub/personal` respectively. You should then be able to stage a commit, push it to the repo, and see the correct username as the author.
 
 ## Shortfalls
 

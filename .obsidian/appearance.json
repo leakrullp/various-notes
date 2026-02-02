@@ -1,8 +1,10 @@
 {
-  "theme": "obsidian",
+  "theme": "system",
   "accentColor": "#2d6bfb",
   "showRibbon": true,
   "interfaceFontFamily": "",
   "textFontFamily": "Funnel Sans",
-  "monospaceFontFamily": "Fira Code"
+  "monospaceFontFamily": "Fira Code",
+  "baseFontSize": 17,
+  "baseFontSizeAction": true
 }

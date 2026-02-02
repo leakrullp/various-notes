@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1a93d6a7e4073861",
+            "id": "71fa297171bc1753",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_handy_tips/0_Using_different_Github_accounts.md",
+                "file": "02_how-to-make-almost-anything/HTMAA Syllabus and stuff to check out.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "0_Using_different_Github_accounts"
+              "title": "HTMAA Syllabus and stuff to check out"
+            }
+          },
+          {
+            "id": "5169f14feb9ac7c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_frameworks-and-architectures-for-the-web/Syllabus overview.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Syllabus overview"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,11 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01_applied-info-sec/ElGamal encryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Udgående Links"
+              "title": "Udgående links fra ElGamal encryption"
             }
           },
           {
@@ -141,22 +157,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3rd semster assignments to hand-in.md",
+                "file": "04_frameworks-and-architectures-for-the-web/Syllabus overview.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Disposition af 3rd semster assignments to hand-in"
+              "title": "Disposition af Syllabus overview"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,24 +184,47 @@
       "bases:Opret ny base": false
     }
   },
-  "active": "1a93d6a7e4073861",
+  "active": "5169f14feb9ac7c3",
   "lastOpenFiles": [
-    "01_applied-info-sec/Virtual Machine.md",
-    "Untitled.md",
-    "02_how-to-make-almost-anything/Syllabus and stuff to check out.md",
-    "3rd semester assignments to hand-in.md",
-    "ITU assignments.base",
-    "Exercises 2025-10-07.md",
-    "00_handy_tips/0_Using_different_Github_accounts.md",
+    "img/Pasted image 20260117160704.png",
+    "04_frameworks-and-architectures-for-the-web/Syllabus overview.md",
+    "02_how-to-make-almost-anything/HTMAA Syllabus and stuff to check out.md",
+    "04_frameworks-and-architectures-for-the-web",
+    "02_how-to-make-almost-anything/Exam Guide HTMAA.md",
+    "02_how-to-make-almost-anything/Stepper motor Arduino program.md",
+    "01_applied-info-sec/SWU test exam AIS.md",
+    "01_applied-info-sec/Lea's AIS Study Guide.md",
+    "img/0J5063.1200.jpg",
+    "img/aaaaa.jpg",
+    "img/x_2022_spring_htmaa_lecture10c_exams.pdf",
+    "img/DC_motor_wiring.png",
+    "img/DC_stepper_motor_wiring.png",
+    "img/Diagrama_The_H-Bridge_circuit_Protection-diodes-and-PWM-mode-dibujo-1024x489.png",
+    "img/IMG_20200529_003548.jpg",
+    "img/IMG_20200529_003559.jpg",
+    "img/IMG_20200529_003658.jpg",
+    "img/IMG_20200529_003710.jpg",
+    "img/Unavngivet.md",
+    "01_applied-info-sec/Text esam AIS.md",
     "01_applied-info-sec/ElGamal encryption.md",
-    "README.md",
+    "img/DA.md",
+    "img/Stepper.md",
+    "01_applied-info-sec/Virtual Machine.md",
+    "00_handy_tips/0_Using_different_Github_accounts.md",
+    "img/README.md",
+    "03_technical_interaction_design/Notes HTMAA.md",
+    "03_technical_interaction_design/Advanced Backends.md",
+    "img",
+    "03_technical_interaction_design",
+    "img/3rd semester assignments to hand-in.md",
+    "img/ITU assignments.base",
+    "img/Exercises 2025-10-07.md",
+    "Untitled.md",
     "Unavngivet.canvas",
     "Unavngivet 1",
     "Unavngivet/Unavngivet.base",
-    "Unavngivet",
     "02_how-to-make-almost-anything",
     "0_Using_different_Github_accounts.pdf",
-    "01_applied-info-sec",
-    "00_handy_tips"
+    "01_applied-info-sec"
   ]
 }
