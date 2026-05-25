@@ -3,8 +3,9 @@
   "accentColor": "#2d6bfb",
   "showRibbon": true,
   "interfaceFontFamily": "",
-  "textFontFamily": "Funnel Sans",
+  "textFontFamily": "Strichpunkt Sans",
   "monospaceFontFamily": "Fira Code",
+  "monospaceFontColor": "#00664F",
   "baseFontSize": 17,
   "baseFontSizeAction": true
 }
