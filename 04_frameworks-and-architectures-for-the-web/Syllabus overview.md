@@ -1,24 +1,23 @@
 
-## HTML
-- [ ] Basic HTML tags for document structure and content
-- [ ] Table elements
-- [ ] HTML forms
-- [ ] Block vs Inline elements
-- [ ] HTML 5 semantic elements
-- [ ] HTML Events
-- [ ] Universal Resource Locators (URLs)
+## 1. HTML
+- [x] Basic HTML tags for document structure and content
+- [x] Table elements
+- [ ] HTML forms [Basics](https://www.w3schools.com/tags/tag_form.asp) [Tutorial](https://www.w3schools.com/html/html_forms.asp)
+- [x] Block vs Inline elements: https://www.w3schools.com/htmL/html_blocks.asp
+- [x] HTML 5 semantic elements 
+- [ ] HTML Events: [Basics](https://www.w3schools.com/tags/ref_eventattributes.asp)
+- [x] Universal Resource Locators (URLs)
 - [ ] What is a Website?
 
-## CSS
-- [ ] CSS Rules, CSS selectors, CSS properties
-- [ ] Box Model layout and positioning
-- [ ] Flexible Box layout and positioning
-- [ ] How to add CSS in a HTML document
-- [ ] Responsive Web Design - Media Queries
+## 2. CSS
+- [x] CSS Rules, CSS selectors, CSS properties
+- [x] Box Model layout and positioning
+- [ ] Flexible Box layout and positioning [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp)
+- [x] How to add CSS in a HTML document
+- [x] Responsive Web Design - Media Queries
 
-## Website design
+## 3. Website design
 - [ ] Website Development Process
-- [ ] Information architecture
 - [ ] Information architecture
 - [ ] Site structural patterns
 - [ ] Web interface design principles
@@ -26,8 +25,8 @@
 	- [ ] Jakob Nielsen’s 10 Interaction Design principles
 - [ ] Wireframe
 
-## JavaScript
-- [ ] Scope of variables: `var`, `const`, and `let`
+## 4. JavaScript
+- [ ] Scope of variables
 - [ ] Objects, properties, and methods
 - [ ] Functions (regular, anonymous, arrow functions)
 - [ ] Arrays: iterating, adding and removing array elements
@@ -37,8 +36,13 @@
 - [ ] Asynchronous programming (callback functions, promises, async/await)
 - [ ] Destructuring assignment and destructuring of function arguments
 - [ ] Spread operator `...`
+### My focus:
+- Promises
+- Spread operators
+- Scope of variables
+- Destructuring
 
-## Typescript
+## 5. Typescript
 - [ ] Typescript vs JavaScript
 - [ ] Type inference
 - [ ] Interface
@@ -50,14 +54,14 @@
 	- [ ] Generic Functions
 - [ ] Modules and import/export
 
-## Software architectures
+## 6. Software architectures
 - [ ] Architectural patterns (styles)
 - [ ] Logical vs physical architecture
 - [ ] Two-layer vs Three-layer architecture
 - [ ] Model-View-Controller (MVC) pattern
 - [ ] Multi-Page vs Single-Page Web Applications
 
-## RESTful web services/Express framework
+## 7. RESTful web services/Express framework
 - [ ] REST architectural style
 - [ ] RESTful services
 - [ ] HTTP Protocol: requests and responses
@@ -66,7 +70,7 @@
 - [ ] Invoking RESTful API with JavaScript Fetch API
 - [ ] RESTful API software architecture
 
-## React framework
+## 8. React framework
 - [ ] React approach vs Model-View-Controller
 - [ ] Class components
 - [ ] Functional components
