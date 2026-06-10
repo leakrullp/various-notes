@@ -2,17 +2,17 @@
 ## 1. HTML
 - [x] Basic HTML tags for document structure and content
 - [x] Table elements
-- [ ] HTML forms [Basics](https://www.w3schools.com/tags/tag_form.asp) [Tutorial](https://www.w3schools.com/html/html_forms.asp)
+- [x] HTML forms [Basics](https://www.w3schools.com/tags/tag_form.asp) [Tutorial](https://www.w3schools.com/html/html_forms.asp)
 - [x] Block vs Inline elements: https://www.w3schools.com/htmL/html_blocks.asp
 - [x] HTML 5 semantic elements 
-- [ ] HTML Events: [Basics](https://www.w3schools.com/tags/ref_eventattributes.asp)
+- [x] HTML Events: [Basics](https://www.w3schools.com/tags/ref_eventattributes.asp)
 - [x] Universal Resource Locators (URLs)
 - [ ] What is a Website?
 
 ## 2. CSS
 - [x] CSS Rules, CSS selectors, CSS properties
 - [x] Box Model layout and positioning
-- [ ] Flexible Box layout and positioning [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp)
+- [x] Flexible Box layout and positioning [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp)
 - [x] How to add CSS in a HTML document
 - [x] Responsive Web Design - Media Queries
 
@@ -117,3 +117,39 @@ The project document describes your developed software system explaining the fol
 	- 2 questions drawn randomly from the list of selected areas (I-VIII topics).
 - **Grade deliberation (5 min)**
 - **Grade and feedback (5 min)**
+
+```js
+const thisisglobal = "hehe"
+
+function Foo(){
+	var y = 0;
+	for(let i = 0, i > 10, i++){
+		var x = 0;
+	}
+}
+```
+
+```js
+const person = {
+  name: "Lars",
+  greet() {
+    const inner = (name) => {
+      console.log(name)
+    };
+    inner();
+  }
+};
+
+const result = (function(n) { return n * n; })(5);
+
+const products = [/* gak og løger*/]
+const country = "Denmark"
+products.filter((p) => p.country === country)
+
+products.reduce((acc, cur) => acc + cur.originalPrice, 0)
+
+```
+
+```js
+const total = items.reduce((sum, item) => sum + (item.quantity || 0),0,);
+```
