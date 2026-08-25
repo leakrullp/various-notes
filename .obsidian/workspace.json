@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Installering af Mint.md",
+                "file": "04_frameworks-and-architectures-for-the-web/Frameworks exam.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Installering af Mint"
+              "title": "Frameworks exam"
             }
           },
           {
@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sommerferie.md",
+                "file": "00_handy_tips/0_Using_different_Github_accounts.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sommerferie"
+              "title": "0_Using_different_Github_accounts"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -213,15 +213,22 @@
       "bases:Opret ny base": false
     }
   },
-  "active": "d09ad618b6b475a8",
+  "active": "ade62a746ab3077c",
   "lastOpenFiles": [
-    "04_frameworks-and-architectures-for-the-web/Syllabus overview.md",
-    "Installering af Mint.md",
-    "04_frameworks-and-architectures-for-the-web/Notes.md",
     "Sommerferie.md",
-    "04_frameworks-and-architectures-for-the-web/Refactoring of product banner to be responsive and for the product page filters to better reflect the data.md",
-    "Software architecture of your development system.md",
+    "00_handy_tips/0_Using_different_Github_accounts.md",
+    "Unavngivet.md",
+    "Unavngivet.base",
+    "Installering af Mint.md",
     "how to sift through git repo and replace author.md",
+    "04_frameworks-and-architectures-for-the-web/Frameworks exam.md",
+    "Pasted image 20260614135521.png",
+    "04_frameworks-and-architectures-for-the-web/Syllabus overview.md",
+    "Pasted image 20260614151555.png",
+    "Software architecture of your development system.md",
+    "Pasted image 20260614150457.png",
+    "04_frameworks-and-architectures-for-the-web/Notes.md",
+    "04_frameworks-and-architectures-for-the-web/Refactoring of product banner to be responsive and for the product page filters to better reflect the data.md",
     "img/Pasted image 20260117160704.png",
     "02_how-to-make-almost-anything/HTMAA Syllabus and stuff to check out.md",
     "04_frameworks-and-architectures-for-the-web",
@@ -236,16 +243,12 @@
     "img/DC_stepper_motor_wiring.png",
     "img/Diagrama_The_H-Bridge_circuit_Protection-diodes-and-PWM-mode-dibujo-1024x489.png",
     "img/IMG_20200529_003548.jpg",
-    "img/IMG_20200529_003559.jpg",
-    "img/IMG_20200529_003658.jpg",
-    "img/IMG_20200529_003710.jpg",
     "img/Unavngivet.md",
     "01_applied-info-sec/Text esam AIS.md",
     "01_applied-info-sec/ElGamal encryption.md",
     "img/DA.md",
     "img/Stepper.md",
     "01_applied-info-sec/Virtual Machine.md",
-    "00_handy_tips/0_Using_different_Github_accounts.md",
     "img/README.md",
     "03_technical_interaction_design/Notes HTMAA.md",
     "03_technical_interaction_design/Advanced Backends.md",
@@ -253,13 +256,10 @@
     "03_technical_interaction_design",
     "img/3rd semester assignments to hand-in.md",
     "img/ITU assignments.base",
-    "img/Exercises 2025-10-07.md",
-    "Untitled.md",
     "Unavngivet.canvas",
     "Unavngivet 1",
     "Unavngivet/Unavngivet.base",
     "02_how-to-make-almost-anything",
-    "0_Using_different_Github_accounts.pdf",
-    "01_applied-info-sec"
+    "0_Using_different_Github_accounts.pdf"
   ]
 }
